@@ -42,7 +42,10 @@ private:
 
 class locker
 {
+<<<<<<< HEAD
 public:
+=======
+>>>>>>> f03329ed308f7846fc74dc287282635fc3ca76b9
     locker()
     {
         if (pthread_mutex_init(&m_mutex, NULL) != 0)

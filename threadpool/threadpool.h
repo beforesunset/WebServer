@@ -61,7 +61,11 @@ template <typename T>
 bool threadpool<T>::append(T *request, int state)
 {
     m_queuelocker.lock();
+<<<<<<< HEAD
     if (m_workqueue.size() >= m_max_requests)
+=======
+    if (m_workqueuq.size() >= m_max_requests)
+>>>>>>> f03329ed308f7846fc74dc287282635fc3ca76b9
     {
         m_queuelocker.unlock();
         return false;

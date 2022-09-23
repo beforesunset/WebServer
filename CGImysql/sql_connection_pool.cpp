@@ -1,5 +1,6 @@
 #include "sql_connection_pool.h"
 #include <iostream>
+<<<<<<< HEAD
 
 
 connection_pool::connection_pool()
@@ -25,4 +26,7 @@ void connection_pool::init(std::string url, std::string User, std::string PassWo
     m_close_log = close_log;
     
 }
+=======
+#include "../lock/locker.h"
+>>>>>>> f03329ed308f7846fc74dc287282635fc3ca76b9
 
