@@ -9,7 +9,11 @@ else
 
 endif
 
+<<<<<<< HEAD
 server:main.cpp ./http/http_conn.cpp ./CGImysql/sql_connection_pool.cpp webserver.cpp config.cpp 
+=======
+server:main.cpp
+>>>>>>> 05838572aa32a57d363048c1654cbb4782beae55
 	$(CXX) -o server $^ $(CXXFLAGS) -lpthread -lmysqlclient
 
 clean:
